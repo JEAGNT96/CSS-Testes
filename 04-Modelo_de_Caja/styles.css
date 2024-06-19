@@ -1,0 +1,111 @@
+/* Estilo del cuerpo */
+body {
+    background-color: #ff69b4;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Estilo del encabezado */
+.header {
+    padding: 20px 0;
+    text-align: center;
+    color: white;
+}
+
+/* Estilo del Título */
+.header h1 {
+    width: 35%;
+    margin: auto;
+    border-bottom: solid 4px white;
+    padding-bottom: 5px;
+}
+
+/* Estilo del contenido principal */
+.main {
+    background-color: white;
+    width: 95%;
+    margin: 0 auto;
+    padding: 20px;
+
+    /* Mejoras al diseño */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Estilo de los productos */
+.producto1, .producto2 {
+    background-color: lightgray;
+    padding: 2%;
+    margin-bottom: 1em;
+    border: 1px solid grey;
+
+    /* Mejoras al diseño */
+    width: 90%;
+    max-width: 600px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+/* Estilo de la imágen 1 */
+.producto1 img {
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+    object-fit: cover;
+}
+
+/* Estilo de la imágen 2 */
+.producto2 img {
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+    object-fit: cover;
+}
+
+/* Estilo del subtìtulo */
+.producto1 h2{ 
+    color: #D81B60;
+}
+
+/* Estilo del subtìtulo */
+.producto2 h2 {
+    color: hotpink;
+}
+
+/* Estilo de los links */
+a {
+    text-decoration: none;
+    color: blueviolet;
+}
+
+/*Estilo de acciòn del link */
+a:active {
+    color: deeppink;
+}
+
+/* Estilo del encabezado */
+.footer {
+    font-style: italic;
+    font-weight: bold;
+    font-size: x-large;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
+
+/* Media queries para páginas responsivas */
+@media (min-width: 600px) {
+    .main {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+
+    .producto1, .producto2 {
+        width: 45%;
+        margin-bottom: 1em;
+    }
+}
