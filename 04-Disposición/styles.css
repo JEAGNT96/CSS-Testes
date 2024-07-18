@@ -1,8 +1,10 @@
+/* Fuente principal */
 body {
     font-family: Arial, Helvetica, sans-serif;
 
 }
 
+/* Estilos del encabezado */
 .encabezado { 
     position: fixed;
     width: 100%;
@@ -16,6 +18,7 @@ body {
     background-color: #929698;
 }
 
+/* Estilos de la barra de navegaciòn */
 nav {
     display: flex;
     justify-content: center;
@@ -32,6 +35,7 @@ a:hover {
     text-decoration: underline;
 }
 
+/* Estilos del contenido principal */
 .contenido {
     padding: 200px 20px 30px;
     display: flex;
@@ -39,6 +43,7 @@ a:hover {
     justify-content: center;
 }
 
+/* Estilos de las cajas (productos) */
 .producto {
     text-align: center;
     border: 5px solid #929698;
@@ -54,6 +59,7 @@ img {
     max-width: 250px;
 }
 
+/* Estilos del pie de página */
 .pie {
     padding: 15px;
     text-align: center;
@@ -62,6 +68,7 @@ img {
     background-color:#929698;
 }
 
+/* Media queries para página responsiva */
 @media (min-width: 600px) {
     .producto { 
         width: 48%;
