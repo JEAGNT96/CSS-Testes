@@ -64,3 +64,13 @@ footer{
     background-color: #333333; 
 }
 
+@media (min-width: 1200px) {
+    img { 
+        width: 300px;
+    }
+
+    .main {
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+}
